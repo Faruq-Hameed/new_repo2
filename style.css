@@ -1,0 +1,77 @@
+
+
+ol{
+    border: 2px solid blue;
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: row-reverse;
+flex-direction: column;
+align-items: center; */
+}
+
+li{
+    width: 100px;
+    height: 100px;
+    border: 2px solid gold;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#black{
+    background-color: black;
+}
+
+#orange{
+    background-color: orange;
+}
+
+ol{
+    display: grid;
+}
+
+.squares{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto 200px auto auto;
+}
+
+.sq{
+    border: 2px solid brown;
+    /* width: 100px; */
+    height: 100px;
+    margin: 10px;
+}
+
+
+#green_sq{
+    background-color: green;
+}
+
+#yellow_sq{
+    background-color: yellow;
+}
+
+#purple_sq{
+    background-color: purple;
+}
+
+#black_sq{
+    background-color: black;
+}
+
+#orange_sq{
+    background-color: orange;
+}
+
